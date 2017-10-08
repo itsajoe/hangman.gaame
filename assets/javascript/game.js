@@ -41,6 +41,8 @@ console.log(both);
 wrong = [];
 guessLeft = 10;
 document.getElementById("numBlanks").innerHTML = both.join(" ");
+document.getElementById("guessed").innerHTML = wrong;
+document.getElementById("left").innerHTML = guessLeft;
 
 
 

@@ -9,35 +9,56 @@
 <body>
 <div class="container">
 	<div class="row">
-		<div class="jumbotron col-lg-12" style="background-image: url(assets/images/darth.jpg); background-size: 100%;">
-			<h1>Star Wars Hangman!</h1>
+		<div class="jumbotron col-sm-12" style="background-image: url(assets/images/darth.jpg); background-size: 100%;">
+			<h1 id="top">Star Wars Hangman!</h1>
 		
 	
 	<div class="row">
-		<div class="panel panel-default col-sm-3" style="background-image: url(assets/images/yoda.png); background-size: 100%;" id="yoda">
-			
+		<div class="panel panel-default col-sm-3" style="background-image: url(assets/images/space.jpg); background-size: 100%;" id="yoda">
+
 			<div class="panel-body">Word</div>
 			<div class="panel-body"></div>
   			<div class="panel-body" id="numBlanks">_ _ _ _ _ _ _</div>
 		</div>
-		<div class="row">
-		<div class="panel panel-default col-sm-2">
-			Guesses Left:  <span id="left">10</span>
-		</div>
-	</div>
-		<div class="row">
-		<div class="panel panel-default col-sm-2">
+			<div class="col-sm-6"></div>
+		<div class="panel panel-default col-sm-3" style="background-image: url(assets/images/mill.jpg); background-size: 100%;" id="blue">
+			
 			Letters Guessed: <span id="guessed"></span>
+			<div class="panel-body"></div>
+			<div class="panel-body"></div>
+			<div class="panel-body"></div>
+			<div class="panel-body"></div>
+
 		</div>
 	</div>
-		<div class="row">
-		<div class="panel panel-default col-sm-2">
-			Wins: <span id="winner">0</span>
+
+		
+			<div class="row">
+			
+				
+				<div class="col-sm-9"></div>
+				<div class="panel panel-default col-sm-2 left">
+				Guesses Left:  <span id="left">10</span>
+				</div>
+			</div>
+	
+			<div class="row">
+				<div class="col-sm-9"></div>
+				<div class="panel panel-default col-sm-2 left">
+					Wins: <span id="winner">0</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-9"></div>
+				<div class="panel panel-default col-sm-2 left">
+				Losses <span id="loser">0</span>
+				</div>
+			</div>
+		
+		
+		
 		</div>
-	</div>
-		<div class="panel panel-default col-sm-2">
-			losses <span id="loser">0</span>
-		</div>
+		
 	
 	
 	</div>
